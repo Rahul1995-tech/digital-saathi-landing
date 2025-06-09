@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital Saathi – आपका डिजिटल ऋण साथी</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7fcfb;
+      margin: 0;
+      padding: 0;
+      color: #004d40;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #00796b;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      border-bottom: 2px solid #004d40;
+      padding-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin-left: 1.2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #004d40;
+    }
+    th, td {
+      padding: 0.8rem 1rem;
+      text-align: center;
+    }
+    th {
+      background: #004d40;
+      color: white;
+    }
+    .testimonial {
+      background: #e0f2f1;
+      padding: 1rem 1.5rem;
+      border-left: 6px solid #00796b;
+      margin: 1.5rem 0;
+      font-style: italic;
+    }
+    .contact {
+      background: #004d40;
+      color: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .contact a {
+      color: #a7ffeb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      margin: 2rem 0 1rem 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    @media(max-width: 600px) {
+      .container {
+        padding: 1rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Saathi – आपका डिजिटल ऋण साथी</h1>
+
+    <h2>हमारा परिचय</h2>
+    <p>
+      आज के दौर में, छोटे व्यापारी और आम लोग उधार देने और लेने में कानूनी और वित्तीय परेशानियों से गुजरते हैं। Digital Saathi आपके लिए एक आसान, सस्ता और भरोसेमंद समाधान लेकर आया है।
+    </p>
+
+    <h2>समस्या जो हम हल करते हैं</h2>
+    <ul>
+      <li>कागजी कार्यवाही और कानूनी दस्तावेज़ बनवाना महंगा और जटिल है।</li>
+      <li>उधार लिखने और याद रखने में गलती हो जाती है।</li>
+      <li>कानूनी सुरक्षा न होने के कारण पैसे वापस लेने में दिक्कतें आती हैं।</li>
+    </ul>
+
+    <h2>हमारा समाधान</h2>
+    <p>
+      Digital Saathi आपको मोबाइल ऐप के जरिए कानूनी रूप से प्रमाणित उधार के दस्तावेज़ बनाने और संभालने का आसान तरीका देता है। 
+    </p>
+    <ul>
+      <li>तुरंत रसीद और नोट बनाएँ</li>
+      <li>गवाहों के साथ दस्तावेज़ सुरक्षित रखें</li>
+      <li>भुगतान अनुस्मारक प्राप्त करें</li>
+      <li>अपने लेन-देन पर पूरी निगरानी रखें</li>
+    </ul>
+
+    <h2>विशेषताएँ और लाभ</h2>
+    <ul>
+      <li><strong>सरल और तेज:</strong> मोबाइल से कभी भी उधार रिकॉर्ड करें।</li>
+      <li><strong>कानूनी सुरक्षा:</strong> नोटरी और डिजिटल सिग्नेचर के विकल्प।</li>
+      <li><strong>विभिन्न पैक:</strong> बेसिक (₹29), लीगल प्रूफ (₹99), रिकवरी सहायता (₹199)।</li>
+      <li><strong>ग्रामीण और शहरी उपयोग के लिए उपयुक्त।</strong></li>
+      <li><strong>बहुभाषी सपोर्ट:</strong> हिंदी, अंग्रेजी आदि।</li>
+    </ul>
+
+    <h2>कीमतें</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>पैक नाम</th>
+          <th>कीमत (₹)</th>
+          <th>मुख्य लाभ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>बेसिक</td>
+          <td>29</td>
+          <td>उधार का सरल रिकॉर्डिंग</td>
+        </tr>
+        <tr>
+          <td>लीगल प्रूफ</td>
+          <td>99</td>
+          <td>कानूनी नोटरी और दस्तावेज़</td>
+        </tr>
+        <tr>
+          <td>रिकवरी सहायता</td>
+          <td>199</td>
+          <td>उधार वसूली में सहायता</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>ग्राहकों की राय</h2>
+    <div class="testimonial">
+      “Digital Saathi ने मेरे उधार को सुरक्षित और भरोसेमंद बनाया। अब मुझे चिंता नहीं रहती।” – राम सिंह, किसान
+    </div>
+
+    <h2>हमसे संपर्क करें</h2>
+    <div class="contact">
+      <p>अभी रजिस्टर करें और अपने उधार को सुरक्षित बनाएं!</p>
+      <p>फोन: <a href="tel:7751878250">77518 78250</a></p>
+      <p>ईमेल: <a href="mailto:contact@digitalsaathi.com">contact@digitalsaathi.com</a></p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Digital Saathi. सभी अधिकार सुरक्षित।
+  </footer>
+</body>
+</html>
