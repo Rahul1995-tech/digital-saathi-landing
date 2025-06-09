@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital Saathi – Legal Pack Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8f5;
+      margin: 0;
+      padding: 2rem;
+      color: #222;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #004d4d;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      margin-top: 1.5rem;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      margin-top: 2rem;
+      background-color: #007f5f;
+      color: white;
+      padding: 0.9rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #005a40;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>क्या आप उधार देते हैं? जानिए कैसे लेखा कायम करना है!</h1>
+    <p>Digital Saathi के Legal Pack से अपने उधार को safe और legal बनाइए – सिर्फ ₹29 से शुरू।</p>
+
+    <form>
+      <label for="name">आपका नाम</label>
+      <input type="text" id="name" name="name" placeholder="Rahul Sharma" required />
+
+      <label for="mobile">मोबाइल नंबर</label>
+      <input type="tel" id="mobile" name="mobile" placeholder="9876543210" required />
+
+      <label for="amount">उधार की रकम</label>
+      <input type="number" id="amount" name="amount" placeholder="10000" required />
+
+      <label for="purpose">उधार का उद्देश्य</label>
+      <input type="text" id="purpose" name="purpose" placeholder="व्यक्तिगत जरूरत" required />
+
+      <label for="repayment">वापसी की तारीख</label>
+      <input type="date" id="repayment" name="repayment" required />
+
+      <label for="witness">गवाह</label>
+      <input type="text" id="witness" name="witness" placeholder="Mohan Singh" required />
+
+      <label for="pack">पैक चुनें</label>
+      <select id="pack" name="pack">
+        <option value="basic">बेसिक – Rs. 29</option>
+        <option value="legal">लीगल प्रूफ – Rs. 99</option>
+        <option value="recovery">रिकवरी सहायता – Rs. 199</option>
+      </select>
+
+      <label for="note">अन्य जानकारी / शान</label>
+      <textarea id="note" name="note" rows="3" placeholder="अगर कुछ और बताना चाहते हो तो यहाँ लिखिए..."></textarea>
+
+      <button type="submit">मुझे यह कागजात चाहिये</button>
+    </form>
+  </div>
+</body>
+</html>
